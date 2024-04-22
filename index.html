@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lotto</title>
+  </head>
+  <link rel="stylesheet" href="Style.css" />
+  <body>
+    <h1>1116회차 (2024.04.20.)</h1>
+    <div>
+      <input id="buttonId" type="button" value="당첨번호 보기" />
+      <h2>내 등수 확인하기</h2>
+      <form id="inputForm">
+        <input
+          id="inputId"
+          type="search"
+          name="checkNum"
+          placeholder="로또번호를 입력하세요"
+        />
+        <input type="submit" value="검색" /> <br />
+      </form>
+    </div>
+    <div>
+      <h2>당첨번호</h2>
+      <p id="result1"></p>
+      <p id="result2"></p>
+    </div>
+    <script src="./js/app.js" defer></script>
+  </body>
+</html>
